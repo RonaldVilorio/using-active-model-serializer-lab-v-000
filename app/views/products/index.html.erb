@@ -15,7 +15,7 @@ $(function() {
           inventoryText = "<strong>Sold Out</strong>";
         }
 
-        let descriptionText = "<p>" + data["description"] + "</p><p>" + inventoryText + "</p>";
+        var descriptionText = "<p>" + data["description"] + "</p><p>" + inventoryText + "</p>";
         $("#product-" + id).html(descriptionText);
 
     });
